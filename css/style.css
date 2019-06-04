@@ -69,6 +69,10 @@ p.text {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
 }
+p.text-head {
+  font-family: 'Raleway', sans-serif;
+  font-size: 19px;
+}
 .img-about {
   text-align: center;
   justify-content: center;
@@ -471,6 +475,7 @@ footer{
 }
 
 
+
 .footer-band {
   background: rgba(255, 255, 255, .2);
  
@@ -797,6 +802,11 @@ img.niño {
   background-size: cover;
   background-position-x:center; 
  }
+
+ .btn-promos:focus, .btn-instalaciones:focus, .btn-platillos:focus, .btn-paquetes:focus {
+  background: -webkit-linear-gradient(left, rgb(126, 1, 255) 0%, rgb(244, 18, 105) 100%);
+
+}
  .btn-instalaciones {
     height: 350px;
     width: 100%;
@@ -882,6 +892,7 @@ footer{
 }
 
 @media (max-width: 767px) {
+  
 
   .img-niña, .niño{
     display: none;
@@ -917,8 +928,53 @@ footer{
 .yellow1{
   color: #0092d8;
 }
+
+@media only screen and (max-width: 574px) {
+  .text-xs-center {
+    text-align: center !important; 
+   }
+  form.formulario-contacto {
+    margin-top: -70px;
+}
+.col-xs-6 {
+  position: relative;
+  width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.bg-btn-azul, .bg-btn-amarillo, .bg-btn-rosa, .bg-btn-verde {
+   height: 300px;
+  }
+  .btn-promos, .btn-instalaciones, .btn-platillos, .btn-paquetes {
+    height: 259px
+  }
+  .about {
+    padding: 0 0 70px 0;
+    background-color: white;
+}
+h2.menu {
+  padding-top: 30px;
+  color: #f41269;
+}
+.contacto-header {
+  padding: 70px 0;
+  background: url(../img/contacto3.png);
+}
+
+.page-header {
+  
+  padding: 160px 0;
+  
+}
+
 }
 @media only screen and (max-width: 450px) {
+  .like {
+    text-align: right;
+    position: absolute;
+    right: 7%;
+    margin-top: 19px;
+}
 ul li.nav-item a.nav-link.btn-white {
   position: relative;
   color: rgb(255, 10, 107) !important;
