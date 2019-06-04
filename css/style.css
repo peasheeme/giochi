@@ -968,7 +968,13 @@ h2.menu {
 }
 
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 510px) {
+  .bg-btn-azul, .bg-btn-amarillo, .bg-btn-rosa, .bg-btn-verde {
+    height: 240px;
+   }
+   .btn-promos, .btn-instalaciones, .btn-platillos, .btn-paquetes {
+     height: 200px
+   }
   .like {
     text-align: right;
     position: absolute;
