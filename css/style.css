@@ -521,6 +521,20 @@ footer{
   background: url('../img/contacto.png');
   
 }
+
+.conocenos-header {
+  padding: 70px 0;
+ background: url('../img/contacto3.png');
+
+}
+.conocenos-header-text {
+  padding: 0px 0 14px 0;
+  color: white;
+  text-align: center;
+  color: white;
+  border-bottom: 5px dashed;
+  
+}
 h2.contactanos {
   text-align: center;
   color: white;
