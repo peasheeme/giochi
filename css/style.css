@@ -1257,6 +1257,13 @@ p.text {
 }
 }
 @media only screen and (max-width: 450px) {
+  h2.contactanos {
+    border-bottom: 4px dashed;
+  }
+  .contacto-header {
+    padding: 25px 0;
+    background: url(../img/contacto3.png);
+}
   .footer-copyright {
     color: white;
     font-size: 12px;
@@ -1272,10 +1279,7 @@ h3.subtitulo-about {
   text-align: left;
   font-size: 24px;
 }
-.contacto-header {
-  padding: 10px 0;
-  background: url(../img/contacto3.png);
-}
+
 
 .btn-promos, .btn-instalaciones, .btn-platillos, .btn-paquetes {
   height: 164px;
@@ -1287,4 +1291,19 @@ h2.menu{
   font-size: 22px;
 }
 
+}
+
+@media only screen and (max-width: 390px) {
+.btn-promos, .btn-instalaciones, .btn-platillos, .btn-paquetes {
+  height: 150px;
+  border: 3px white dashed;
+  border-radius: 10px;
+
+}
+.bg-btn-azul, .bg-btn-amarillo, .bg-btn-rosa, .bg-btn-verde {
+height: 190px;
+}
+h2.menu{
+font-size: 22px;
+}
 }
