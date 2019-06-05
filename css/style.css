@@ -417,7 +417,7 @@ li.paq  {
 /* end paquetes*/
 /* MENU*/
 h2.menu {
-  color: #f41269;
+  color: #ffb200;
 }
 .menu-rosa {
   color: #F61269;
@@ -515,7 +515,12 @@ footer{
 .margin-top-250 {
   margin-top: 250;
 }
-
+.subtitulo-about {
+  color: #4D4D4D;
+}
+h5 {
+  color: #4D4D4D;
+}
 .contacto-header {
   padding: 100px 0;
   background: url('../img/contacto.png');
@@ -616,6 +621,9 @@ form.formulario-contacto {
    margin-top: 19px;
 }
 
+.mostrar-about-991{
+  display: none;
+}
 
 @media (max-width: 740px) {
   .full-page-intro {
@@ -745,6 +753,12 @@ h2.menu {
 }
 
 @media only screen and (max-width: 991px) {
+  .mostrar-about-991{
+    display: inline-block;
+  }
+  .ocultar-about-991 {
+    display: none;
+  }
 
   .header-subtitulo{
     margin-top: 70px;
