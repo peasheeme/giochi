@@ -1221,6 +1221,10 @@ p.text {
 
 }
 @media only screen and (max-width: 510px) {
+  .footer-copyright {
+    color: white;
+    font-size: 12px;
+}
   .bg-btn-azul, .bg-btn-amarillo, .bg-btn-rosa, .bg-btn-verde {
     height: 240px;
    }
@@ -1247,8 +1251,16 @@ p.text {
 .header-subtitulo {
   margin-top: 120px;
 }
+.footer-copyright {
+  color: white;
+  font-size: 12px;
 }
-@media only screen and (max-width: 400px) {
+}
+@media only screen and (max-width: 450px) {
+  .footer-copyright {
+    color: white;
+    font-size: 12px;
+}
   .text-xs-left {
     text-align: left !important;
   }
