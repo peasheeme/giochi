@@ -1,130 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Giochi</title>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <link rel="stylesheet" href="css/owl.carousel.css">
-  <link rel="stylesheet" href="css/owl.theme.css">
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="css/mdb.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Raleway:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-
-  <!-- Your custom styles (optional) -->
-  <link href="css/style.css" rel="stylesheet">
-  <style type="text/css">
-    html,
-    body,
-    header,
-    .view {
-      height: 100%;
-    }
-
-    @media (max-width: 740px) {
-      html,
-      body,
-      header,
-      .view {
-        height: 1000px;
-      }
-    }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-      html,
-      body,
-      header,
-      .view {
-        height: 650px;
-      }
-    }
-    @media (min-width: 800px) and (max-width: 850px) {
-              .navbar:not(.top-nav-collapse) {
-                  background: #1C2331!important;
-              }
-          }
-  </style>
-</head>
-
-<body>
-    <a class="button-whatsapp"  href="https://api.whatsapp.com/send?phone=528128957827" target="_blank"><i class="fab fa-whatsapp"></i></a>
-
-    <div class="barra-inf">
-        <div class="container">
-            <div class="row">
-                    <a class="button-mail"  href="info@giochi.mx"><i class="fas fa-envelope"></i></a>
-                    <a class="button-llamada"  href="tel:8332283325 "><i class="fas fa-phone"></i></a>
-            </div>
-        </div>
-    </div>
-  <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
-    <div class="container">
-
-      <!-- Brand -->
-      <img src="img/logo.png" alt="giochi logotipo" class="logotipo"> </a>
-
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a href="index.html" class="nav-link" >
-               
-                </a>
-              </li>
-        </ul>
-
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item ocultar-movil-992">
-            <a href="index.html" class="nav-link btn-white">
-              inicio
-            </a>
-          </li>
-          <li class="nav-item mostrar-movil-992">
-              <a href="index.html" class="nav-link btn-white "  style="font-size: 28px; padding: 0;"
-               >
-               <i class="fas fa-home"></i>
-              </a>
-            </li>
-         
-          <li class="nav-item ocultar-movil-992">
-            <a href="index.html#conocenos" class="nav-link btn-white" >
-                Conócenos
-            </a>
-          </li>
-          <li class="nav-item mostrar-movil-992">
-              <a href="index.html#conoce" class="nav-link btn-white" >
-                  Conócenos
-              </a>
-            </li>
-          <li class="nav-item">
-            <a href="index.html#contactanos" class="nav-link btn-white "
-             >
-              Contáctanos
-            </a>
-          </li>
-        </ul>
-
-      </div>
-
-    </div>
-  </nav>
-  <!-- Navbar -->
+<?php require_once('includes/header.php') ?>
 
   <div class="page-header "  style="background-image: url('img/bg.png'); ">
     <div class="container">
@@ -707,18 +581,18 @@
               </button></a>
             </div>
             <div class=" col-xs-6 col-sm-6 col-md-6 bg-btn-azul">
-              <a href="instalaciones"><button class=" btn-promos">
+              <a href="promos"><button class=" btn-promos">
                 <img class="" src="img/bg-1.png" alt="" >
               </button></a>
             </div>
         
         <div class="col-xs-4 col-xs-6 col-sm-6  col-md-6 bg-btn-verde">
-          <a href="instalaciones"><button class="btn-platillos">
+          <a href="paquetes"><button class="btn-platillos">
             <img class="" src="img/bg-3.png" alt="">
           </button></a>
         </div>
         <div class="col-xs-2 col-xs-6  col-sm-6 col-md-6 bg-btn-amarillo">
-          <a href="instalaciones"><button class="btn-paquetes">
+          <a href="platillos"><button class="btn-paquetes">
             <img class="" src="img/bg-4.png" alt="">
           </button></a>
         </div>
@@ -816,11 +690,34 @@
             
                 <!-- Card body -->
                 <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordionEx">
-                  <div class="card-body">
-                      <p class="text">
-                          Ave. Hidalgo 6706 Col. Arenal, Tampico <br>
-                          Entre el Asador Aeropuerto y Hampton Inn
-                      </p>
+                 <br>
+                 <div class="media">
+                      <img class="d-flex mr-3" src="img/i2.png"  alt="ubicación">
+                      <div class="media-body">
+                         <p class="mt-0 "><strong>Télefono</strong></p>
+                       <a class="negro" href="tel:8332283325 ">  <p class="text mt-10">  (833) 228 3325   </p></a>
+                     </div>
+                   </div>
+                  
+                    <div class="media">
+                      <img class="d-flex mr-3" src="img/i4.png"  alt="ubicación">
+                      <div class="media-body">
+                      <p class="mt-0 "><strong>E-mail</strong></p>
+                       <a class="negro"href="mailto:info@giochi.mx ">  <p class="text mt-10" > info@giochi.mx  </p></a>
+                     </div>
+                   </div>
+              
+                    <div class="media">
+                      <img class="d-flex mr-3" src="img/i3.png"  alt="ubicación">
+                      <div class="media-body">
+                         <p class="mt-0 "><strong>Ubicación</strong></p>
+                          <a href="https://goo.gl/maps/u348HiMKEhiKDYxp9"  target="_blank" class="negro"><p class="text mt-10">Ave. Hidalgo 6706 Col. Arenal, Tampico <br>
+                          Entre el Asador Aeropuerto y Hampton Inn   </p></a>
+                     </div>
+                   </div>
+                  
+                  
+                   
                       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6263793973008!2d-97.87641308469321!3d22.29213848532789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7fbd5ddfb62b5%3A0x7eabd0d7cf4d6edb!2sGiochi+Tampico!5e0!3m2!1ses-419!2smx!4v1559148129310!5m2!1ses-419!2smx" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                   
                   </div>
@@ -898,58 +795,80 @@
               </div>
               <!-- Accordion card -->
             
-            </div>
+      </div>
             <!-- Accordion wrapper -->
       </div>
    
-            <div class="col-xs-12 col-md-12 col-lg-5 ocultar-movil-992 ">
-                <h3 class="yellow1">¡TE ESPERAMOS!</h3>
-                <div class="punteado"></div>
-                <p class="text">
-                    Ave. Hidalgo 6706 Col. Arenal, Tampico <br>
-                    Entre el Asador Aeropuerto y Hampton Inn
-                      </p>
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-5 ocultar-movil-992 ">
+                    <h3 class="yellow1">¡TE ESPERAMOS!</h3>
+                    <div class="punteado"></div>
+                    <div class="media">
+                          <img class="d-flex mr-3" src="img/i2.png"  alt="ubicación">
+                          <div class="media-body">
+                             <p class="mt-0 "><strong>Télefono</strong></p>
+                           <a class="negro" href="tel:8332283325 ">  <p class="text mt-10">  (833) 228 3325   </p></a>
+                         </div>
+                       </div>
                       
-                <h3 class="yellow1">¡HORARIOS DE FIESTAS!</h3>
-                <div class="punteado"></div>
-                <p class="subtitulo-contacto"> 
-                    <strong>LUNES A VIERNES</strong>
-                  </p>         
-                <p class="text"> 4:00 pm - 8:00pm </p> 
-                <p class="subtitulo-contacto">
-                    <strong>SABADOS Y DOMINGOS</strong>
-                  </p>    
-                  <p class="text"> 10:00 am - 2:00pm </p>     
-                <p class="text"> 4:00 pm - 8:00pm </p>
-                    
-                <h3 class="yellow1">RENTA DE INSTALACIONES</h3>
-                <div class="punteado"></div>
-                <p class="text">
-                    Si deseas rentar únicamente las instalaciones
-                    de Giochi sin contratar ningun paquete.
-      
-                </p>
-                       
-                
-                <p class="subtitulo-contacto">
-                  <strong>LUNES A JUEVES</strong>
-                </p> 
-                  <p class="subtitulo-contacto ">
-                      $6,500.
-                      <span class="peque ">00</span>
-                    </p>    </p>   
+                        <div class="media">
+                          <img class="d-flex mr-3" src="img/i4.png"  alt="ubicación">
+                          <div class="media-body">
+                          <p class="mt-0 "><strong>E-mail</strong></p>
+                           <a class="negro"href="mailto:info@giochi.mx ">  <p class="text mt-10" > info@giochi.mx  </p></a>
+                         </div>
+                       </div>
+                  
+                        <div class="media">
+                          <img class="d-flex mr-3" src="img/i3.png"  alt="ubicación">
+                          <div class="media-body">
+                             <p class="mt-0 "><strong>Ubicación</strong></p>
+                              <a href="https://goo.gl/maps/u348HiMKEhiKDYxp9"  target="_blank" class="negro"><p class="text mt-10">Ave. Hidalgo 6706 Col. Arenal, Tampico <br>
+                              Entre el Asador Aeropuerto y Hampton Inn   </p></a>
+                         </div>
+                       </div>
+                          
+                    <h3 class="yellow1">¡HORARIOS DE FIESTAS!</h3>
+                    <div class="punteado"></div>
+                    <p class="subtitulo-contacto"> 
+                        <strong>LUNES A VIERNES</strong>
+                      </p>         
+                    <p class="text"> 4:00 pm - 8:00pm </p> 
                     <p class="subtitulo-contacto">
-                      <strong>VIERNES A DOMINGO</strong>
-                    </p> 
-                    <p class="subtitulo-contacto ">
-                        $7,500.
-                        <span class="peque ">00</span>
+                        <strong>SABADOS Y DOMINGOS</strong>
                       </p>    
-                      
-              </div>
-              <div class="col-xs-12 col-md-6 col-lg-7 ocultar-movil-992 ">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6263793973008!2d-97.87641308469321!3d22.29213848532789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7fbd5ddfb62b5%3A0x7eabd0d7cf4d6edb!2sGiochi+Tampico!5e0!3m2!1ses-419!2smx!4v1559148129310!5m2!1ses-419!2smx" width="100%" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
-              </div>
+                      <p class="text"> 10:00 am - 2:00pm </p>     
+                    <p class="text"> 4:00 pm - 8:00pm </p>
+                        
+                    <h3 class="yellow1">RENTA DE INSTALACIONES</h3>
+                    <div class="punteado"></div>
+                    <p class="text">
+                        Si deseas rentar únicamente las instalaciones
+                        de Giochi sin contratar ningun paquete.
+          
+                    </p>
+                           
+                    
+                    <p class="subtitulo-contacto">
+                      <strong>LUNES A JUEVES</strong>
+                    </p> 
+                      <p class="subtitulo-contacto ">
+                          $6,500.
+                          <span class="peque ">00</span>
+                        </p>    </p>   
+                        <p class="subtitulo-contacto">
+                          <strong>VIERNES A DOMINGO</strong>
+                        </p> 
+                        <p class="subtitulo-contacto ">
+                            $7,500.
+                            <span class="peque ">00</span>
+                          </p>    
+                          
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-7 ocultar-movil-992 ">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6263793973008!2d-97.87641308469321!3d22.29213848532789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d7fbd5ddfb62b5%3A0x7eabd0d7cf4d6edb!2sGiochi+Tampico!5e0!3m2!1ses-419!2smx!4v1559148129310!5m2!1ses-419!2smx" width="100%" height="650" frameborder="0" style="border:0" allowfullscreen></iframe>
+                  </div>
+            </div>
         </div>
       </div>
 
@@ -1061,41 +980,5 @@
       </div>
 
     </section>
-
+    <?php require_once('includes/footer.php') ?>
  
-  <footer  class="footer-web">
-    <div class="footer-band  text-center">
-        <div class="container ">
-          <div class="row margin-top-250">
-              <img src="img/logo.png" alt="logotipo" class="logo-footer">
-              <img class="like"src="img/like.png" alt="">  
-          </div>
-          <hr style="border-bottom: 0.1px solid white;">
-          <div class="footer-copyright py-3">
-              © Giochi 2019 Todos los derechos reservados <br>
-           <a href="privacidad.html" target="_blank"> Política de privacidad </a>| Sitio web Creado por: <a href="http://3e-digital.com" target="_blank"> 3E-Digital </a> 
-         <br> </div>  
-    </div>
-    <div class="footer-band2">
-         
-    
-   </div>
-    </div>
-  </footer>
-
-
-  <!--/.Footer-->
-
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/custom.js"></script>
-<script type="text/javascript" src="js/mdb.min.js"></script>
-      
-</body>
-
-</html>

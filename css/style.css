@@ -516,6 +516,33 @@ h5 {
   background: url('../img/contacto.png');
   
 }
+p.text.mt-10 {
+  margin-top: -15px;
+}
+.instalaciones-section {
+  padding: 100px 0;
+  background: url('../img/s1.png');
+  
+}
+.paquetes-section {
+  padding: 100px 0;
+  background: url('../img/s3.png');
+  
+}
+.platillos-section {
+  padding: 100px 0;
+  background: url('../img/s4.png');
+  
+}
+.promos-section {
+  padding: 100px 0;
+  background: url('../img/s2.png');
+  
+}
+a.negro {
+  color: #404146;
+  font-weight: 700;
+}
 
 .conocenos-header {
   padding: 70px 0;
@@ -767,7 +794,7 @@ img.niño {
   margin-top: -15px;
 }
 .desplegable-contacto {
-  margin-top: 70px;
+  margin-top: 0px;
 }
 .btn-conocenos2 {
   margin: 10px 5px;
