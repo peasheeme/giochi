@@ -35,8 +35,7 @@ ul li.nav-item a.nav-link.btn-white:hover {
 .page-header {
   background-position: center bottom;
   background-size: cover;
-  
-  padding: 230px 0;
+  padding: 350px 0 !important;
   border: 0;
   display: flex;
   align-items: center;
@@ -106,16 +105,7 @@ p.text-head {
   padding: 100px 0;
   background-color: #fafafa; 
 }
-.page-header {
-  background-position: center bottom;
-  background-size: cover;
-  
-  padding: 230px 0;
-  border: 0;
-  display: flex;
-  align-items: center;
-  background-color: white;
-}
+
 .barra-inf {
   display: none ;
    
@@ -625,53 +615,30 @@ form.formulario-contacto {
   display: none;
 }
 
-@media (max-width: 740px) {
-  .full-page-intro {
-    height: 1000px; } }
-
-/* Half Page Carousel itself*/
-.carousel {
-  height: 50%; }
-  .carousel .carousel-inner {
-    height: 100%; }
-    .carousel .carousel-inner .carousel-item,
-    .carousel .carousel-inner .active {
-      height: 100%; }
-
-/* Adjustment for mobile devices*/
-@media (max-width: 776px) {
-  .carousel {
-    height: 100%; } }
-    .navbar-toggler {
-      padding: .25rem .75rem;
-      font-size: 1.25rem;
-      line-height: 1;
-      background-color: #ffb400;
-      border: 1px solid transparent;
-      border-radius: .25rem;
-  }
-/* Navbar animation */
-.navbar {
-  background-color: rgba(255, 255, 255, 0.3); }
-  ul li.nav-item a.nav-link.btn-white{
-    color: red;
-  }
-.top-nav-collapse {
-  background-color: white; }
-
-/* Adding color to the Navbar on mobile */
-@media only screen and (max-width: 768px) {
-  .navbar {
-    background-color: #ffffff;
-} 
-h2.menu {
-  color: #f41269;
-}}
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #1C2331; }
-  
+
+  @media only screen and (max-width: 2880px) {
+    .page-header {
+      background-position: center bottom;
+      background-size: cover;
+      padding: 350px 0 !important;
+      border: 0;
+      display: flex;
+      align-items: center;
+      background-color: white;
+  }
+  }
+  @media only screen and (max-width: 1920px) {
+    .page-header {
+     
+      padding: 200px 0 !important;
+     
+  }
+  }
+
 
   @media only screen and (max-width: 1199px) {
 
@@ -753,11 +720,19 @@ h2.menu {
 }
 
 @media only screen and (max-width: 991px) {
+
   .mostrar-about-991{
     display: inline-block;
   }
   .ocultar-about-991 {
     display: none;
+  }
+  h3.subtitulo-about {
+    padding: 32px 0 0 0;
+    text-align: left;
+  }
+  p.text.mostrar-about-991{
+    text-align: left;
   }
 
   .header-subtitulo{
@@ -943,6 +918,58 @@ footer{
 
 }
 
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+    .navbar-toggler {
+      padding: .25rem .75rem;
+      font-size: 1.25rem;
+      line-height: 1;
+      background-color: #ffb400;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+  }
+/* Navbar animation */
+.navbar {
+  background-color: rgba(255, 255, 255, 0.3); }
+  ul li.nav-item a.nav-link.btn-white{
+    color: red;
+  }
+.top-nav-collapse {
+  background-color: white; }
+}
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #ffffff;
+} 
+h2.menu {
+  color: #ffb200
+}
+.page-header {
+  
+  padding: 260px 0 !important;
+ 
+}
+.ocultar-movil-768{
+  display: none;
+}
+
+.about {
+  padding: 70px 0 100px 0;
+  background-color: white;
+}
+.contacto-header {
+  padding: 40px 0;
+  background: url(../img/contacto3.png);
+}
+.desplegable-contacto {
+  margin-top: 0px; 
+}
+}
+
+
 @media (max-width: 767px) {
   
   .barra-inf {
@@ -960,6 +987,7 @@ footer{
     box-shadow: -1px -2px 30px -10px rgba(89,83,89,1);
     
 }
+
   .img-niña, .niño{
     display: none;
   }
@@ -1049,11 +1077,34 @@ footer {
   align-items: self-end;
   margin-bottom: 60px;
 }
+}
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px; } }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
 
 @media only screen and (max-width: 574px) {
-  .page-header {
-    padding: 130px 0;
+  h5{
+    text-align: left;
+  }
+p.text {
+  text-align: left;
 }
+  .page-header {
+    
+    padding: 125px 0 !important;
+    
+}
+ 
   ul li.nav-item a.nav-link.btn-white {
   display: -webkit-inline-box;
   position: relative;
@@ -1132,45 +1183,41 @@ footer {
     -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
-  img.logotipo {
-    width: 140px;
-}
-  .text-xs-center {
-    text-align: center !important; 
-   }
-  form.formulario-contacto {
-    margin-top: -70px;
-}
-.col-xs-6 {
-  position: relative;
-  width: 50%;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-.bg-btn-azul, .bg-btn-amarillo, .bg-btn-rosa, .bg-btn-verde {
-   height: 300px;
+    img.logotipo {
+      width: 140px;
   }
-  .btn-promos, .btn-instalaciones, .btn-platillos, .btn-paquetes {
-    height: 259px
+    .text-xs-center {
+      text-align: center !important; 
+    }
+    form.formulario-contacto {
+      margin-top: -70px;
   }
-  .about {
-    padding: 0 0 70px 0;
-    background-color: white;
-}
-h2.menu {
-  padding-top: 30px;
-  color: #f41269;
-}
-.contacto-header {
-  padding: 70px 0;
-  background: url(../img/contacto3.png);
+  .col-xs-6 {
+    position: relative;
+    width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .bg-btn-azul, .bg-btn-amarillo, .bg-btn-rosa, .bg-btn-verde {
+    height: 300px;
+    }
+    .btn-promos, .btn-instalaciones, .btn-platillos, .btn-paquetes {
+      height: 259px
+    }
+    .about {
+      padding: 0 0 70px 0;
+      background-color: white;
+  }
+  h2.menu {
+    padding-top: 30px;
+    color: #ffb200;
+    text-align: left;
+  }
+  .contacto-header {
+    padding: 70px 0;
+    background: url(../img/contacto3.png);
 }
 
-.page-header {
-  
-  padding: 160px 0;
-  
-}
 
 }
 @media only screen and (max-width: 510px) {
@@ -1200,4 +1247,32 @@ h2.menu {
 .header-subtitulo {
   margin-top: 120px;
 }
+}
+@media only screen and (max-width: 400px) {
+  .text-xs-left {
+    text-align: left !important;
+  }
+.page-header {
+  padding: 0 0 !important;
+}
+h3.subtitulo-about {
+  padding: 32px 0 0 0;
+  text-align: left;
+  font-size: 24px;
+}
+.contacto-header {
+  padding: 10px 0;
+  background: url(../img/contacto3.png);
+}
+
+.btn-promos, .btn-instalaciones, .btn-platillos, .btn-paquetes {
+  height: 164px;
+}
+.bg-btn-azul, .bg-btn-amarillo, .bg-btn-rosa, .bg-btn-verde {
+  height: 205px;
+}
+h2.menu{
+  font-size: 22px;
+}
+
 }
